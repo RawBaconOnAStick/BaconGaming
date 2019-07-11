@@ -261,7 +261,7 @@ margin: 50px;
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(130, 14, 20);
+    background-color: #292929;
     min-width: 160px;
     z-index: 1;
 }
@@ -388,6 +388,10 @@ margin: 50px;
 }
 
 
-.links1 {
+/* .links1 {
   background-color: rgb(238, 28, 36);
+} */
+
+.links1 {
+  background-color: #292929;
 }
