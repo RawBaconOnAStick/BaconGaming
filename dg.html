@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Download Games - Bacon Gaming</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <a id="backtotop"></a>
+    <h3><a class="bg_logo">Download Games</a></h3>
+    <div class="links" id="navbar">
+        <div class="dropdown">
+            <button class="dropbtn logo"><a class="bg_logo" href="index.html"></a></button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_news"><a class="drop_head" href="news.html">News</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="news.html">All News</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_na"><a class="drop_head" href="na.html">Newly Added</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="na.html">All Games</a>
+                <a class="dropdown-item" href="na.html#ff:2019">FF: 2019</a>
+                <a class="dropdown-item" href="na.html#sttlr">Settler</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_dg"><a class="drop_head" href="dg.html">Download Games</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="dg.html">All</a>
+                <a class="dropdown-item" href="dg.html#getgms2">Get GMS:2</a>
+                <a class="dropdown-item" href="dg.html#games">Games</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_about"><a class="drop_head" href="about.html">About</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="about.html">About BG Studio</a>
+                <a class="dropdown-item" href="about.html#about_rd">About Rohan Dharwadker</a>
+                <a class="dropdown-item" href="about.html#donate">Donate</a>
+                <a class="dropdown-item" href="about.html#contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <a id="getgms2"></a>
+    <div class = "get get_gms2">
+        <h1>Download GameMakerStudio: 2</h1>
+        <p>!IMPORTANT! To download any of the games below, you will need to install GameMakerStudio: 2 first. <a href="https://www.yoyogames.com/get" target="_blank">Click here</a> to download it.</p>
+    </div>
+    <a id="games"></a>
+    <a id="get_ff"></a>
+    <div class = "get ff">
+        <h1><a href="files/ff2019.zip">Download FF: 2019</a></h1>
+        <p>2 players, 3 lives. Brawl it out!</p>
+    </div>
+    <a id="get_ff"></a>
+    <div class = "get settler">
+        <h1><a class="dwnld" href="files/settler.zip">Download Settler</a></h1>
+        <p>Protect your island. Grow your economy. Survive and Settle.</p>
+    </div>
+    <div class = "get ms">
+        <h1><a href="files/minesweeper.zip">Download Minesweeper</a></h1>
+        <p>Your all-classic childhood favorite.</p>
+    </div>
+    <div class="btt">
+        <a class="backtotop" href="#backtotop">Back to top</a>
+    </div>
+</body>
+</html>
+
+<script>    
+    window.onscroll = function() {
+    var nav = document.getElementById("navbar");
+    var nav_button_news = document.getElementById("nav_button_news")
+    var nav_button_na = document.getElementById("nav_button_na")
+    var nav_button_dg = document.getElementById("nav_button_dg")
+    var nav_button_about = document.getElementById("nav_button_about")
+    if ( window.pageYOffset > 100 ) {
+        nav.classList.add("links1");
+        nav_button_news.classList.add("links1")
+        nav_button_na.classList.add("links1")
+        nav_button_dg.classList.add("links1")
+        nav_button_about.classList.add("links1")
+        // var nav_button_array = document.getElementsByClassName("dropbtn");
+        // for(var i = 0; i < nav_button_array.length; i++)
+        // {
+        //     nav_button_array[i].className += " links1";
+        // }
+    } else { 
+        nav.classList.remove("links1");
+        nav_button_news.classList.remove("links1")
+        nav_button_na.classList.remove("links1")
+        nav_button_dg.classList.remove("links1")
+        nav_button_about.classList.remove("links1")
+        // for(var i = 0; i < nav_button_array.length; i++)
+        // {
+        //     nav_button_array[i].className -= "links1";
+        // }
+    }
+    }
+</script>

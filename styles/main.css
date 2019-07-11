@@ -1,0 +1,110 @@
+﻿@charset "UTF-8";
+body{
+    background-color:#333333;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+.links{
+    background-color:#232323;
+    padding:10px;
+    text-align:center;
+}
+.bgadd {
+    padding:40px;
+    border: solid #252525 100px ;
+    background-color: #252525;
+    background-image: url('https://media.giphy.com/media/EuRPhAypzskgw/giphy.gif');
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 340px;
+    margin: 100px;
+}
+a{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.spread{
+    padding-right: 100px;
+    padding-left:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.rightspread{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.spread:hover{
+    background-color:#1b1b1b;
+    transition:.25s;
+}
+.rightspread:hover{
+    background-color:#1b1b1b;
+    transition:.25s;
+}
+.ad{
+    padding:20px;
+    border: solid #252525 100px ;
+    background-color: #252525;
+    background-image: url('https://breezynotes.com/wp-content/uploads/2017/03/image-goes-here-billboard.jpg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 400px;
+    margin: 50px;
+}
+
+.ad1{
+    text-align:right;
+    padding:20px;
+    border: solid #252525 100px ;
+    background-color: #252525;
+    background-image: url('https://breezynotes.com/wp-content/uploads/2017/03/image-goes-here-billboard.jpg');
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-size: 400px;
+    margin: 50px;
+}
+.about{
+    text-align:left;
+    padding:20px;
+    border: solid #252525 100px ;
+    background-color: #252525;
+    background-size: 400px;
+    margin: 50px;
+}
+.get {
+    text-align:center;
+    margin:50px;
+    padding:20px;
+    background-color: #252525;
+}
+.bgadd {
+    padding:40px;
+    background-image: url('https://media.giphy.com/media/EuRPhAypzskgw/giphy.gif');
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 340px;
+    margin: 100px;
+}
+.ff_add{
+    padding:20px;
+    margin: 100px;
+    text-align:center;
+}
+.gms2logo{
+    margin:80px
+}
+.active{
+    background-color:#1f1f1f;
+}
+.ff_ad2 {
+    margin:20px;
+    text-align:left;
+    padding:100px;
+    background-color: #252525;
+}

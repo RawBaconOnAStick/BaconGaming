@@ -1,0 +1,393 @@
+﻿@charset "UTF-8";
+body{
+  background-color:#333333;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  padding:0px;
+  margin:0px;
+}
+h1{
+  font-family: 'Fira Sans', sans-serif;
+}
+.head {
+  padding-left:20px;
+}
+.links{
+  background-color: #333333;
+  padding:10px;
+  padding-left:0px;
+  position: sticky;
+  top:0;
+  width:100%;
+  z-index: 1;
+  transition: .25s;
+}
+/* .links:hover {
+  background-color:#292929;
+  transition:.25s;
+}
+.links:hover .dropbtn {
+  background-color:#292929;
+  transition:.25s;
+} */
+/* .links1 {
+  background-color: #292929;
+} */
+
+
+
+.bgadd {
+  padding:30px;
+  border: solid #232323 100px ;
+  background-color: #232323;
+  background-image: url('https://media.giphy.com/media/EuRPhAypzskgw/giphy.gif');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 300px;
+  margin: 110px;
+  margin-bottom:15px;
+  margin-top: 50px;
+}
+a{
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+}
+.spread{
+  padding-right: 90px;
+  padding-left:90px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-decoration: none;
+}
+.rightspread{
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-decoration: none;
+}
+.spread:hover{
+  background-color:#1b1b1b;
+  transition:.25s;
+}
+.rightspread:hover{
+  background-color:#1b1b1b;
+  transition:.25s;
+}
+.ad{
+  padding:20px;
+  border: solid #252525 100px ;
+  background-color: #252525;
+  background-image: url('pics/settler_logo.PNG');
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: 400px;
+  margin: 50px;
+}
+
+.ad1{
+  text-align:right;
+  padding:20px;
+  border: solid #252525 100px ;
+  background-color: #252525;
+  background-image: url('pics/ms_logo.PNG');
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: 400px;
+  margin: 50px;
+}
+.ad2 {
+  text-align:right;
+  padding:20px;
+  border: solid #252525 100px ;
+  background-color: #252525;
+  background-image: url('pics/ff_logo.PNG');
+  background-repeat: no-repeat;
+  background-position: 0%;
+  background-size: 400px;
+  margin: 50px;
+}
+.about{
+  text-align:left;
+  padding:20px;
+  border: solid #252525 100px ;
+  background-color: #252525;
+  background-size: 400px;
+  margin: 50px;
+}
+.contact{
+text-align:left;
+padding:20px;
+margin: 50px;
+}
+.get {
+  text-align:center;
+  margin:50px;
+  padding:20px;
+  background-color: #252525;
+}
+.ff_add{
+  padding:20px;
+  margin: 100px;
+  text-align:center;
+}
+.gms2logo{
+  margin:80px
+}
+.active{
+  background-color:#1f1f1f;
+}
+.ff_ad2 {
+  margin:20px;
+  text-align:left;
+  padding:100px;
+  background-color: #252525;
+}
+.dwnld {
+  text-decoration: underline;
+}
+.ms {
+  padding:60px;
+  text-align:left;
+  background-image:url("pics/ms_logo.PNG");
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: 250px; 
+  margin: 100px;
+}
+.settler{
+  padding:60px;
+  text-align:left;
+  background-image:url("pics/settler_logo.PNG");
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: 340px; 
+  margin: 100px;
+}
+.ff_ad3 {
+  margin:20px;
+  text-align:right;
+  padding:100px;
+  background-color: #252525;
+  background-image:url("https://images.emojiterra.com/google/android-nougat/512px/1f44d.png");
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: 200px; 
+}
+.ff{
+  padding:60px;
+  text-align:left;
+  background-image:url("pics/ff_logo.PNG");
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: 340px; 
+  margin: 100px;
+}
+.post {
+  margin:20px;
+  text-align:left;
+  padding:100px;
+  background-color: #252525;
+}
+.btt {
+  margin:20px;
+  text-align:center;
+}
+.backtotop {
+  text-decoration: none;
+  background-color:#252525;
+  padding:10px;
+  border: #1f1f1f solid 3px;
+}
+.bg_logo {
+  font-weight: bold;
+  text-decoration: none;
+  padding:10px;
+}
+.downarrowicon {
+  text-align:center;
+}
+.logo {
+  background-image:url('pics/bg_logo.PNG');
+  background-size:cover;
+  width:42px;
+}
+.get_gms2{
+  margin: 0px;
+  margin-top: 80px; 
+  background-color:#212121;
+  position: sticky;
+  top:-11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dropdown */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #333333;
+  color: white;
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-size: 16px;
+  border: none;
+  transition:.25s;
+}
+.drop_head {
+    text-decoration: none;
+}   
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 90px;
+    padding-left:10px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(130, 14, 20);
+    min-width: 160px;
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    text-align:left;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-item:hover {
+    background-color:grey;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition:.25s;
+  }
+
+
+
+
+/* slideshow */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: none;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  background-color:black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} */
+.slide {
+    height:500px;
+}
+
+
+.links1 {
+  background-color: rgb(238, 28, 36);
+}

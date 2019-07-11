@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>About - Bacon Gaming</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h3><a class="bg_logo">About</a></h3>
+    <div class="links" id="navbar">
+        <div class="dropdown">
+            <button class="dropbtn logo"><a class="bg_logo" href="index.html"></a></button>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_news"><a class="drop_head" href="news.html">News</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="news.html">All News</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_na"><a class="drop_head" href="na.html">Newly Added</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="na.html">All Games</a>
+                <a class="dropdown-item" href="na.html#ff:2019">FF: 2019</a>
+                <a class="dropdown-item" href="na.html#sttlr">Settler</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_dg"><a class="drop_head" href="dg.html">Download Games</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="dg.html">All</a>
+                <a class="dropdown-item" href="dg.html#getgms2">Get GMS:2</a>
+                <a class="dropdown-item" href="dg.html#games">Games</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn" id="nav_button_about"><a class="drop_head" href="about.html">About</a></button>
+            <div class="dropdown-content">
+                <a class="dropdown-item" href="about.html">About BG Studio</a>
+                <a class="dropdown-item" href="about.html#about_rd">About Rohan Dharwadker</a>
+                <a class="dropdown-item" href="about.html#donate">Donate</a>
+                <a class="dropdown-item" href="about.html#contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class = "about">
+        <h1>About Bacon Gaming Studio</h1>
+        <p>Rohan Dharwadker is the founder of Bacon Gaming. He dreams that one day his company can become commercial and make some of the world's best games.
+        </p>
+        <p>All released BGStudio games are made in GameMakerStudio: 2.</p>
+    </div>
+    <a id="about_rd"></a>
+    <div class = "about">
+        <h1>About Rohan Dharwadker</h1>
+        <p>Rohan Dharwadker uses GameMakerStudio: 2 to code his games. While he enjoys programming, Rohan also runs and plays the Viola.</p>
+    </div>
+    <a id="donate"></a>
+    <div class="about">
+        <h1>Donate</h1>
+        <p>If you like our games or want more games, please donate <a target="blank" href="https://paypal.me/dharwadker?locale.x=en_US">here</a>.</p>
+        <p>!IMPORTANT! In the Memo option, please write "bgstudio donation", otherwise your donation may not be received!</p>
+    </div>
+    <a id="contact"></a>
+    <div class="about">
+        <h2>Contact Us</h2>
+        <h5>Have a problem? Need help? Want to give a suggestion?</h5>
+        <p>Send us an E-Mail: <a href="mailto:bacongamingstudio@gmail.com" target="none">BaconGamingStudio@gmail.com</a></p>
+    </div>
+
+
+    
+
+
+
+</body>
+</html>
+
+<script>    
+    window.onscroll = function() {
+    var nav = document.getElementById("navbar");
+    var nav_button_news = document.getElementById("nav_button_news")
+    var nav_button_na = document.getElementById("nav_button_na")
+    var nav_button_dg = document.getElementById("nav_button_dg")
+    var nav_button_about = document.getElementById("nav_button_about")
+    if ( window.pageYOffset > 100 ) {
+        nav.classList.add("links1");
+        nav_button_news.classList.add("links1")
+        nav_button_na.classList.add("links1")
+        nav_button_dg.classList.add("links1")
+        nav_button_about.classList.add("links1")
+        // var nav_button_array = document.getElementsByClassName("dropbtn");
+        // for(var i = 0; i < nav_button_array.length; i++)
+        // {
+        //     nav_button_array[i].className += " links1";
+        // }
+    } else { 
+        nav.classList.remove("links1");
+        nav_button_news.classList.remove("links1")
+        nav_button_na.classList.remove("links1")
+        nav_button_dg.classList.remove("links1")
+        nav_button_about.classList.remove("links1")
+        // for(var i = 0; i < nav_button_array.length; i++)
+        // {
+        //     nav_button_array[i].className -= "links1";
+        // }
+    }
+    }
+</script>
